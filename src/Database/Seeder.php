@@ -114,7 +114,7 @@ abstract class Seeder
      * Resolve an instance of the given seeder class.
      *
      * @param string $class
-     * @return \MacropaySolutions\Kernel\Database\Seeder
+     * @return \MacropaySolutions\KernelDev\Database\Seeder
      */
     protected function resolve($class)
     {

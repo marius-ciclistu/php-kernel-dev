@@ -84,7 +84,7 @@ class SeedCommand extends Command
     /**
      * Get a seeder instance from the container.
      *
-     * @return \MacropaySolutions\Kernel\Database\Seeder
+     * @return \MacropaySolutions\KernelDev\Database\Seeder
      */
     protected function getSeeder()
     {

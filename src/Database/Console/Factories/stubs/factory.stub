@@ -2,10 +2,10 @@
 
 namespace {{ factoryNamespace }};
 
-use MacropaySolutions\Kernel\Database\Obvious\Factories\Factory;
+use MacropaySolutions\KernelDev\Database\Obvious\Factories\Factory;
 
 /**
- * @extends \MacropaySolutions\Kernel\Database\Obvious\Factories\Factory<\{{ namespacedModel }}>
+ * @extends \MacropaySolutions\KernelDev\Database\Obvious\Factories\Factory<\{{ namespacedModel }}>
  */
 class {{ factory }}Factory extends Factory
 {
